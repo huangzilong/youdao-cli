@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '8'
+
+deploy:
+  provider: npm
+  email: huangzilongg@gmail.com
+  api_key:
+    secure: ADfiiLTWaomuMOey12ZTd0mqwM65WQUtWSchAEMO54FqBZR5eva4pqvLa4PAiNpMgBSYU9N2Z1ni7KHtCSsXQo5tku6viql87TabahwvXQaOwW0zyfhellrAMelDfxbQ5SnsYnenzJgAAELpoYQbY9dXf1PHyJ0VnsnWi5pvJPtkaCvjyOfsaCHheOnZW7iDa0lu+kXTcZwk4WiI+vKDMfcV/veCmZ0jwOdvoATmkorbkPNM7+VaBtvgVOpDJ5Hww2teGYanKQzYzIZJE9EUav2Vb5aXup21MxK09PJ3rDomQ5Dwu7LPsV9o2l+7L+7rxu7D7cv4trBQ6hZ1mnQPE907jEq4jdiLL7dgSG7q31itEpevJQtkcVzeIY6br+B+RMqv/mJ6gQdoovBBuouP8cf2PrLyiPPwyy7mHM2mVQGVambbqMxvqUVXUlTqatUEQ3DMppXKTyj0bNxh6WmYLm1PvVu8oRIJDVkzDC61VzJwIfLDA2jpBUlUDYVh13EBARanMQpDLVzgIwxCsUBnId2fkiEGUHbb323l9QKs4W8YGWhs3AotJglro+lGASlY/rwg4yZsSLJvQ8/FbhDzojJUIOf4GaaqncTIvqmOAwuIm2wynFXsvz+EiLychZrMdV3B7BXRD/b03qfisnKh4o0FK9cu3+Val2eFXuiGDC4=
+  on:
+    tags: true
+    repo: huangzilong/youdao-cli

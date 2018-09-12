@@ -1,8 +1,12 @@
 {
   "name": "youdao-cli",
   "version": "1.0.0",
-  "description": "youdao-cli",
-  "main": "index.js",
+  "description": "一个查单词的cli",
+  "homepage": "https://github.com/huangzilong/youdao-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangzilong/youdao-cli.git"
+  },
   "bin": {
     "yd": "bin/youdao"
   },
